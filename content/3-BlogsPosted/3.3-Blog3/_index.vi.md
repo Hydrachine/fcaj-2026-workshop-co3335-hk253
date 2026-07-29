@@ -8,10 +8,6 @@ pre: " <b> 3.3. </b> "
 
 # [NHỮNG BÀI HỌC MÌNH RÚT RA KHI THIẾT KẾ HỆ THỐNG ĐIỂM DANH QR THEO KIẾN TRÚC SERVERLESS TRÊN AWS](https://www.facebook.com/share/p/1BkEq1q5fx/)
 
-Trước khi bắt đầu dự án, mình thường nghĩ việc triển khai hạ tầng chỉ là bước cuối cùng sau khi hoàn thành mã nguồn. Tuy nhiên, quá trình sử dụng AWS SAM giúp mình nhận ra rằng thiết kế hạ tầng và phát triển ứng dụng nên diễn ra song song. Việc mô tả toàn bộ hệ thống bằng `template.yaml` không chỉ giúp triển khai nhanh hơn mà còn mang lại nhiều lợi ích như dễ bảo trì, dễ chia sẻ, dễ kiểm soát phiên bản và dễ tích hợp vào quy trình CI/CD. Đây cũng là nền tảng để xây dựng các hệ thống có khả năng mở rộng trong môi trường thực tế.
-
-Bên cạnh đó, mình hiểu rằng AWS SAM không phải là một dịch vụ thay thế Lambda hay API Gateway. Thay vào đó, nó giống như một "kiến trúc sư" giúp mô tả cách các dịch vụ Serverless được kết nối với nhau trước khi AWS CloudFormation tiến hành xây dựng toàn bộ hệ thống.
-
 Các điểm chính cần nắm:
 
 * Không nên gom nhiều nhiệm vụ vào trong một Lambda.
