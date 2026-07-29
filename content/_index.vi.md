@@ -26,9 +26,13 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 15/06/2026 đến hết ngày 15/08/2026
 
+
+# Test homepage
+Dòng trước avatar
+
 ![Ảnh đại diện của bạn](/images/avatar.jpg)
 
-
+Dòng sau avatar
 
 ### Nội dung báo cáo
 
