@@ -1,31 +1,32 @@
 ---
 title: "Báo cáo thực tập"
-date: 2024-01-01
+date: 2026-07-29
 weight: 1
 chapter: false
 ---
 
 # Báo cáo thực tập
+
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
+&emsp; **Họ và tên:** Đào Minh Hiếu
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Số điện thoại:** 0975407716
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** hieu.daohieudao@hcmut.edu.vn
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** Trường Đại học Bách Khoa (HCMUT) - Đại học Quốc gia Thành phố Hồ Chí Minh (VNU-HCM)
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Ngành:** Khoa học Máy tính
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** FCAJ - BKU - 2026
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey 2026
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Thời gian thực tập:** Từ ngày 15/06/2026 đến hết ngày 15/08/2026
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+![Ảnh đại diện của bạn](/static/images/avatar.jpg)
 
 
 
