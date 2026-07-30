@@ -14,7 +14,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = "https://github.com/Hydrachine/fcaj-2026-workshop-co3335-hk253.git"
+  editURL = "https://github.com/Hydrachine/fcaj-2026-workshop-co3335-hk253/"
   description = "HK253 CO3335 Internship (FCAJ 2026 - Đề tài 3)"
   author = "hieu.daohieudao@hcmut.edu.vn"
   showVisitedLinks = true
