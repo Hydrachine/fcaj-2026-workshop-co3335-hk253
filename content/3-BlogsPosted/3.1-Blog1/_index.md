@@ -20,6 +20,6 @@ Key points to know:
 
 In my opinion, this is one of the main reasons why Serverless has become increasingly popular for modern web and mobile applications. Although it still has limitations, such as cold starts and vendor lock-in, its advantages in scalability, cost efficiency, and rapid development make Serverless an excellent choice for many real-world projects, especially systems with highly variable traffic.
 
-![AWS Serverless services I chose to design the workshop](img/1.jpg)
+![AWS Serverless services I chose to design the workshop](/fcaj-2026-workshop-co3335-hk253/images/3-BlogsPosted/1.jpg)
 
 Posted link: <https://www.facebook.com/share/1DRhj9K5Lu/>

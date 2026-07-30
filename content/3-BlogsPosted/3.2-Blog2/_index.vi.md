@@ -22,6 +22,6 @@ Các điểm chính cần nắm:
 
 Đối với người mới học AWS, theo mình, hiểu được vai trò của AWS SAM sẽ giúp hiểu rõ hơn cách AWS tổ chức và triển khai một ứng dụng Serverless hoàn chỉnh thay vì chỉ tập trung vào từng dịch vụ riêng lẻ.
 
-![Hình minh hoạ tóm gọn câu trả lời của bài đăng](img/2.jpg)
+![Hình minh hoạ tóm gọn câu trả lời của bài đăng](/fcaj-2026-workshop-co3335-hk253/images/3-BlogsPosted/2.jpg)
 
 Posted link: <https://www.facebook.com/share/1DRhj9K5Lu/>

@@ -20,6 +20,6 @@ Các điểm chính cần nắm:
 
 Theo mình, đây cũng là lý do khiến Serverless ngày càng được sử dụng rộng rãi trong các ứng dụng web và di động hiện nay. Mặc dù vẫn tồn tại những hạn chế như Cold Start hay phụ thuộc vào nhà cung cấp dịch vụ, lợi ích về khả năng mở rộng, chi phí và tốc độ phát triển khiến Serverless trở thành lựa chọn phù hợp cho nhiều dự án thực tế, đặc biệt là các hệ thống có lưu lượng truy cập biến động.
 
-![Các ứng dụng AWS Serverless mình đã sử dụng thết kế workshop](img/1.jpg)
+![Các ứng dụng AWS Serverless mình đã sử dụng thết kế workshop](/fcaj-2026-workshop-co3335-hk253/images/3-BlogsPosted/1.jpg)
 
 Link bài đăng: <https://www.facebook.com/share/1DRhj9K5Lu/>

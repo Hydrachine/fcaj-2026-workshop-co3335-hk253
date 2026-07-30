@@ -20,6 +20,6 @@ Các điểm chính cần nắm:
 
 Trải nghiệm này giúp bản thân mình hiểu rằng việc thiết kế một ứng dụng Serverless không chỉ đơn giản là kết hợp các dịch vụ của AWS. Thay vào đó, quá trình này đòi hỏi phải thiết kế kiến trúc một cách cẩn thận, phân tách rõ ràng trách nhiệm của từng thành phần và áp dụng phương pháp Hạ tầng dưới dạng mã nguồn (Infrastructure as Code - IaC) để xây dựng các hệ thống có khả năng mở rộng, dễ bảo trì và phù hợp với việc triển khai trong môi trường thực tế.
 
-![Hình minh họa tóm tắt 7 bài học chính rút ra từ workshop sử dụng các dịch vụ AWS](img/3.jpg)
+![Hình minh họa tóm tắt 7 bài học chính rút ra từ workshop sử dụng các dịch vụ AWS](/fcaj-2026-workshop-co3335-hk253/images/3-BlogsPosted/3.jpg)
 
 Posted link: <https://www.facebook.com/share/p/1BkEq1q5fx/>

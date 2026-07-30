@@ -1,6 +1,6 @@
 ---
 title: "Dọn dẹp"
-date: 2024-01-01
+date: 2026-07-29
 weight: 6
 chapter: false
 pre : " <b> 5.6. </b> "
@@ -13,7 +13,7 @@ Nên xoá giao diện trước.
 2. Chọn ứng dụng BK-Sync mà ta đã tạo.
 3. Ở menu bên cạnh, bấm vào **App settings** -> **General settings**.
 4. Kéo xuống dưới cùng và bấm **Delete app** để xóa.
-![alt text](image.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.6/image.png)
 
 ### 2. Xóa hạ tầng Backend (AWS SAM)
 
@@ -29,11 +29,11 @@ Xác nhận bằng phím `y` cho các câu hỏi. CloudFormation sẽ tự độ
 **Cách 2: Xóa bằng giao diện Web (Đề phòng lỗi)**
 Đôi khi việc xóa bằng lệnh bị lỗi (do AWS Secrets Manager khóa Secret bảo vệ 30 ngày). Nếu bạn gặp dòng chữ báo `DELETE_FAILED` đối với resource `HmacSecretV2`, hãy làm như sau:
 1. Mở AWS Console -> tìm dịch vụ **CloudFormation**.
-![alt text](image-1.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.6/image-1.png)
 2. Bấm vào stack `qr-attendance-backend-dev`, chọn **Delete**(hoặc **Retry delete** nếu trước đó delete thất bại).
-![alt text](image-2.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.6/image-2.png)
 3. Một bảng thông báo hiện ra , chọn **Force delete this entire stack**, nhấn **Delete stack**.
-![alt text](image-3.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.6/image-3.png)
 
 Vậy là hệ thống đã được dọn dẹp sạch sẽ!
 

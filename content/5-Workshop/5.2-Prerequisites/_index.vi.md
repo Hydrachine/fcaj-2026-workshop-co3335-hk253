@@ -1,6 +1,6 @@
 ---
 title: "Chuẩn bị"
-date: 2024-01-01
+date: 2026-07-29
 weight: 2
 chapter: false
 pre : " <b> 5.2. </b> "
@@ -13,15 +13,15 @@ pre : " <b> 5.2. </b> "
 **Các bước tạo IAM User:**
 1. Đăng nhập vào AWS Console bằng tài khoản Root.
 2. Truy cập dịch vụ **IAM**, chọn **Users** -> **Create user**.
-![alt text](image-1.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-1.png)
 3. Đặt tên User (VD: `bk-sync-deployer`).
 4. Tích chọn **Provide user access to the AWS Management Console**.
 5. Có thể tùy chọn **Auto-generated password** hoặc **Custom password**.Sau đó bấm Next 
-![alt text](image.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image.png)
 6. Trong phần **Set permissions**, chọn **Attach policies directly**, sau đó bấm **Create policy**.
-![alt text](image-2.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-2.png)
 7. Trình duyệt sẽ mở một tab mới. Chuyển sang tab **JSON**
-![alt text](image-3.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-3.png)
 8. Xóa nội dung cũ đi, copy và dán toàn bộ đoạn mã JSON phân quyền (đã tối ưu Least Privilege) sau đây:
 
 ```json
@@ -161,11 +161,11 @@ pre : " <b> 5.2. </b> "
 }
 
 ```
-![alt text](image-4.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-4.png)
 9. Bấm **Next**, đặt tên Policy (VD: `qr-attendance-deploy-policy`), kéo xuống và bấm **Create policy**.
-![alt text](image-5.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-5.png)
 10. Quay lại tab tạo User ban đầu, bấm nút **Refresh** (biểu tượng mũi tên xoay tròn), tìm và tích chọn Policy vừa tạo. Sau đó bấm Create user 
-![alt text](image-6.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-6.png)
 11. Hoàn tất tạo User và lưu lại tài khoản/mật khẩu đăng nhập. Đăng nhập vào tài khoản IAM mà đã tạo. Sau khi đăng nhập cần chỉnh region về ap-southeast-1 để có thể triển khai được.
 
 ### 2. Cài đặt Công cụ (CLI Tools)

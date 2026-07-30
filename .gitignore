@@ -1,1 +1,7 @@
+.gitignore
+.venv/*
+report/*
 public/*
+pandoc-3.10.1/*
+scripts/*
+hugo.exe

@@ -20,6 +20,6 @@ Key points to know:
 
 This experience helped me understand that designing a Serverless application is not simply about combining AWS services. Instead, it requires careful architectural planning, a clear separation of responsibilities, and the adoption of Infrastructure as Code (IaC) practices to build systems that are scalable, maintainable, and suitable for real-world deployment.
 
-![An illustration summarizing 7 key takeaways from the workshop using AWS services](img/3.jpg)
+![An illustration summarizing 7 key takeaways from the workshop using AWS services](/fcaj-2026-workshop-co3335-hk253/images/3-BlogsPosted/3.jpg)
 
 Link bài đăng: <https://www.facebook.com/share/p/1BkEq1q5fx/>

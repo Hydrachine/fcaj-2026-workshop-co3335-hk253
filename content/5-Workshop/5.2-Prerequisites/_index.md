@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites"
-date: 2024-01-01
+date: 2026-07-29
 weight: 2
 chapter: false
 pre : " <b> 5.2. </b> "
@@ -13,15 +13,15 @@ To ensure security when deploying the system, we do not use the Root account. Cr
 **Steps to create an IAM User:**
 1. Log in to the AWS Console using the Root account.
 2. Go to the **IAM** service, select **Users** -> **Create user**.
-![alt text](image-1.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-1.png)
 3. Enter the Username (e.g., `bk-sync-deployer`).
 4. Check **Provide user access to the AWS Management Console**.
 5. You can choose **Auto-generated password** or **Custom password**. Then click Next.
-![alt text](image.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image.png)
 6. In the **Set permissions** section, choose **Attach policies directly**, then click **Create policy**.
-![alt text](image-2.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-2.png)
 7. A new browser tab will open. Switch to the **JSON** tab.
-![alt text](image-3.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-3.png)
 8. Clear the existing content, copy and paste the entire JSON permission code (optimized for Least Privilege) below:
 
 ```json
@@ -160,11 +160,11 @@ To ensure security when deploying the system, we do not use the Root account. Cr
     ]
 }
 ```
-![alt text](image-4.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-4.png)
 9. Click **Next**, name the Policy (e.g., `qr-attendance-deploy-policy`), scroll down, and click **Create policy**.
-![alt text](image-5.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-5.png)
 10. Go back to the original User creation tab, click the **Refresh** button (circular arrow icon), search for, and select the Policy you just created. Then click **Create user**.
-![alt text](image-6.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.2/image-6.png)
 11. Complete the User creation and save the login credentials. Log in to the newly created IAM account. After logging in, make sure to change the region to `ap-southeast-1` to be able to deploy.
 
 ### 2. CLI Tools Installation

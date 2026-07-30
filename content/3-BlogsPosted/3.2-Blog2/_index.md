@@ -22,6 +22,6 @@ Key points to know:
 
 For beginners learning AWS, I believe that understanding the role of AWS SAM provides a much clearer picture of how a complete Serverless application is organized and deployed, rather than focusing on each service in isolation.
 
-![An illustration of the answer provided in the post](img/2.jpg)
+![An illustration of the answer provided in the post](/fcaj-2026-workshop-co3335-hk253/images/3-BlogsPosted/2.jpg)
 
 Link bài đăng: <https://www.facebook.com/share/p/19M2zdKdvg/>

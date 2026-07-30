@@ -1,6 +1,6 @@
 ---
 title: "Backend Deployment"
-date: 2024-01-01
+date: 2026-07-29
 weight: 3
 chapter: false
 pre : " <b> 5.3. </b> "
@@ -25,8 +25,8 @@ npm install
 sam build
 ```
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.3/image.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.3/image-1.png)
 
 ### 3. Deploy to AWS
 
@@ -34,9 +34,9 @@ Before deploying, ensure you have logged in and linked your Terminal with your A
 ```bash
 aws login
 ```
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.3/image-2.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.3/image-3.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.3/image-4.png)
 
 Then, run the following command to deploy the infrastructure to AWS (CloudFormation will automatically provision Lambda, API Gateway, DynamoDB, etc.):
 ```bash
@@ -56,7 +56,7 @@ The system will prompt you for configuration. Answer as follows:
 
 Wait about 2-3 minutes for the deployment to finish.
 
-![alt text](image-5.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.3/image-5.png)
 
 ### 4. Save Configuration Outputs
 
@@ -80,6 +80,6 @@ chmod +x create_admin.sh
 
 The system will automatically find the AWS connection and prompt you for an Email, Password, and Full Name.
 
-![alt text](image-6.png)
+![alt text](/fcaj-2026-workshop-co3335-hk253/images/5-Workshop/5.3/image-6.png)
 
 When the screen says "Success!", you can use this account to log in to the website in the next section.
