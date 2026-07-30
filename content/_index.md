@@ -27,12 +27,9 @@ chapter: false
 
 &emsp; **Internship Duration:** From 15/06/2026 to 15/08/2026
 
-# Test homepage
-Dòng trước avatar
 
-![Your profile picture](/images/avatar.jpg)
+![Your profile picture](/fcaj-2026-workshop-co3335-hk253/images/avatar.jpg)
 
-Dòng sau avatar
 
 ### Report Content
 
