@@ -62,7 +62,7 @@ Theo quan điểm cá nhân, chương trình đã được tổ chức rất bà
 ***Thứ hai, về quy trình đăng ký làm việc tại văn phòng.*** Hiện nay thời gian xét duyệt tương đối sát với ngày làm việc. Đối với em, điều này chưa gây nhiều khó khăn vì đang trong thời gian nghỉ hè và nơi ở khá gần văn phòng. Tuy nhiên, đối với những thực tập sinh cần sắp xếp lịch học hoặc di chuyển từ xa, nếu lịch được xác nhận sớm hơn khoảng một ngày hoặc thời gian đăng ký được đóng sớm hơn thì sẽ thuận tiện hơn trong việc chủ động sắp xếp kế hoạch cá nhân.
 
 
-***3. Đánh giá chung***
+**3. Đánh giá chung**
 
 Sau 6 tuần trải nghiệm môi trường làm việc thực tế, em nhận thấy FCAJ là một chương trình thực tập được tổ chức bài bản, đặc biệt phù hợp với sinh viên chưa có nhiều kinh nghiệm làm việc trong lĩnh vực phát triển phần mềm.
 
