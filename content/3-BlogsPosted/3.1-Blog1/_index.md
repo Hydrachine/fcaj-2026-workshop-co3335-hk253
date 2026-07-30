@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# [GETTING STARTED WITH AWS SERVERLESS: THE SERVERLESS SERVICES I CHOSE TO BUILD MY WORKSHOP](https://www.facebook.com/share/1DRhj9K5Lu/)
+# GETTING STARTED WITH AWS SERVERLESS: THE SERVERLESS SERVICES I CHOSE TO BUILD MY WORKSHOP
 
 Each service has its own responsibility but is designed to work seamlessly with the others. After understanding how these services interact, I no longer viewed Serverless as a collection of individual technologies, but rather as a modern system design approach in which developers focus on business logic while AWS manages the underlying infrastructure.
 

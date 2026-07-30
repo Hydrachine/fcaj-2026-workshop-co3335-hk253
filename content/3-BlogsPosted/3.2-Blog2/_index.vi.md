@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# [AWS SAM LÀ GÌ? TẠI SAO AWS SAM KHÔNG ĐƯỢC XEM LÀ MỘT DỊCH VỤ SERVERLESS CỦA AWS?](https://www.facebook.com/share/1DRhj9K5Lu/)
+# AWS SAM LÀ GÌ? TẠI SAO AWS SAM KHÔNG ĐƯỢC XEM LÀ MỘT DỊCH VỤ SERVERLESS CỦA AWS?
 
 Trước khi bắt đầu dự án, mình thường nghĩ việc triển khai hạ tầng chỉ là bước cuối cùng sau khi hoàn thành mã nguồn. Tuy nhiên, quá trình sử dụng AWS SAM giúp mình nhận ra rằng thiết kế hạ tầng và phát triển ứng dụng nên diễn ra song song. Việc mô tả toàn bộ hệ thống bằng `template.yaml` không chỉ giúp triển khai nhanh hơn mà còn mang lại nhiều lợi ích như dễ bảo trì, dễ chia sẻ, dễ kiểm soát phiên bản và dễ tích hợp vào quy trình CI/CD. Đây cũng là nền tảng để xây dựng các hệ thống có khả năng mở rộng trong môi trường thực tế.
 

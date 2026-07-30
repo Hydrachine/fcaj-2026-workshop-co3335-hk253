@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# [WHAT IS AWS SAM? WHY IS AWS SAM NOT CONSIDERED AN AWS SERVERLESS SERVICE?](https://www.facebook.com/share/p/19M2zdKdvg/)
+# WHAT IS AWS SAM? WHY IS AWS SAM NOT CONSIDERED AN AWS SERVERLESS SERVICE?
 
 Before starting this project, I used to think that infrastructure deployment was simply the final step after completing the application code. However, working with AWS SAM helped me realize that infrastructure design and application development should be carried out together. Defining the entire system in a `template.yaml` file not only simplifies deployment but also provides significant benefits, including easier maintenance, improved collaboration, version control, and seamless integration with CI/CD pipelines. It also serves as a solid foundation for building scalable systems in real-world environments.
 

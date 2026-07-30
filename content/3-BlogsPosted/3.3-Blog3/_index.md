@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
-# [LESSONS I LEARNED FROM DESIGNING A SERVERLESS QR ATTENDANCE SYSTEM ON AWS](https://www.facebook.com/share/p/1BkEq1q5fx/)
+# LESSONS I LEARNED FROM DESIGNING A SERVERLESS QR ATTENDANCE SYSTEM ON AWS
 
 Key points to know:
 

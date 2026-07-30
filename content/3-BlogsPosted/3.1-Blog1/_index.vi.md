@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-# [LÀM QUEN AWS SERVERLESS: NHỮNG DỊCH VỤ SERVERLESS MÌNH LỰA CHỌN ĐỂ XÂY DỰNG WORKSHOP](https://www.facebook.com/share/1DRhj9K5Lu/)
+# LÀM QUEN AWS SERVERLESS: NHỮNG DỊCH VỤ SERVERLESS MÌNH LỰA CHỌN ĐỂ XÂY DỰNG WORKSHOP
 
 Mỗi dịch vụ đảm nhận một vai trò riêng nhưng được thiết kế để hoạt động cùng nhau. Khi hiểu được mối liên kết này, mình không còn nhìn Serverless như một công nghệ riêng lẻ mà như một phương pháp thiết kế hệ thống hiện đại, trong đó nhà phát triển tập trung vào nghiệp vụ còn hạ tầng được AWS quản lý.
 

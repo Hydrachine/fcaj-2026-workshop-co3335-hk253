@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
-# [NHỮNG BÀI HỌC MÌNH RÚT RA KHI THIẾT KẾ HỆ THỐNG ĐIỂM DANH QR THEO KIẾN TRÚC SERVERLESS TRÊN AWS](https://www.facebook.com/share/p/1BkEq1q5fx/)
+# NHỮNG BÀI HỌC MÌNH RÚT RA KHI THIẾT KẾ HỆ THỐNG ĐIỂM DANH QR THEO KIẾN TRÚC SERVERLESS TRÊN AWS
 
 Các điểm chính cần nắm:
 
