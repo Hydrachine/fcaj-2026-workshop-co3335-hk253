@@ -24,7 +24,7 @@ pre: " <b> 1.4. </b> "
 
 ### Kết quả đạt được Tuần 4
 
-* Đối với dự án nhóm:
+* **Đối với dự án nhóm:**
 
     * Hoàn thiện tài liệu đặc tả chi tiết của dự án, bao gồm các yêu cầu chức năng, yêu cầu phi chức năng và các tài liệu phục vụ quá trình phát triển phần mềm.
 

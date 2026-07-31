@@ -25,7 +25,7 @@ pre: " <b> 1.4. </b> "
 
 ### Week 4 achievements
 
-* About the group project:
+* **About the group project:**
 
     * Completed the detailed project specification, including functional requirements, non-functional requirements, and supporting technical documentation required for software development.
 

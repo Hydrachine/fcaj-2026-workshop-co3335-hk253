@@ -10,38 +10,34 @@ pre: " <b> 1.5. </b> "
 ### Mục tiêu Tuần 5
 
 * Tuần 5 bắt đầu từ ngày **06/07/2026** đến ngày **12/07/2026**.
-* Tìm hiểu chi tiết các dịch vụ mạng của AWS, đặc biệt là dịch vụ **Amazon Virtual Private Cloud (Amazon VPC)**.
-* Tìm hiểu, thực hành cách triển khai (deploy) và quản lý máy chủ ảo bằng **Amazon EC2**.
-* Hoàn thiện bản thiết kế đầu tiên kiến trúc phần mềm và luồng hệ thống (workflow) dự án của nhóm.
+* Tìm hiểu dịch vụ bảo mật **Amazon Cognito** để hiểu nhiệm vụ của thành viên khác và cải thiện định nghĩa **API Gateway**.
+* Tìm hiểu dịch vụ quản lý cung cấp dữ liệu **Amazon CloudWatch** để cập nhật định dạng kết quả đầu ra (output) của API.
+* Lên ý tưởng và tham khảo giao diện người dùng (frontend) cho dự án.
 
 ### Các công việc cần triển khai trong tuần này
 
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | ---- | --------- | ------------ | --------------- | -------------- | 
-| 2 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Ôn tập subnets, route tables, các loại gateway <br>&emsp; + Thiết lập tường lửa trong **AWS VPC** | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - **Thực hành**: Thiết lập máy chủ ảo bằng **EC2 Intances** <br>&emsp; + Tạo máy chủ và kiểm tra kết nối <br>&emsp; + Kết nối mạng bằng **NAT Gateway** <br>&emsp; + Quản lý kết nối mạng bằng **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Thiết kế kiến trúc cơ bản của dự án: <br>&emsp; + Vẽ sơ đồ các **Use Case** và **Sequence** <br>&emsp; + Chọn cấu trúc dữ liệu cho dự án <br>&emsp; + Cách sử dụng AWS CLI | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Tạo và quản lý hệ thống mạng AWS VPC giả lập kết nối hai tiệm net | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Thực hành**: Làm quen dịch vụ bảo mật **Amazon Cognito** <br>&emsp; + Tìm hiểu hai thành phần **User pool** và **Identity pool** <br>&emsp; + Giả lập xác thực tài khoản người dùng <br>&emsp; + Triển khai (deploy) xác thực tài khoản bằng **Cognito Cross Sites** <br>&emsp; + Tham gia kiểm tra luồng dữ liệu **Amazon Cognito** của dự án nhóm | 06/07/2026 | 07/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - **Thực hành**: Làm quen dịch vụ quản lý cung cấp dữ liệu **Amazon CloudWatch** <br>&emsp; + Tạo sơ đồ phân tích dữ liệu sử dụng bằng **CloudWatch Metric** <br>&emsp; + Tìm hiểu cách quản lý thông tin phản hồi (log) giữa các dịch vụ bằng **CloudWatch Logs** <br>&emsp; + Tự động hoá quản lý luồng dữ liệu bằng **CloudWatch Alarms** <br>&emsp; + Trực quan hoá toàn bộ dữ liệu phân tích bằng **CloudWatch Dashboards** | 08/07/2026 | 09/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Kiểm tra lại độ tương thích của **API Gateway**: <br>&emsp; + **API Gateway** và **Amazon Cognito** <br>&emsp; + **API Gateway** và **Amazon CloudWatch** <br>&emsp; + **API Gateway** và **Amazon DynamoDB** | 09/07/2026 | 12/07/2026 |  |
+| 6 | - **Thảo luận nhóm**: Lựa chọn giao diện cho dự án <br>&emsp; + Mã nguồn hỗ trợ hiển thị trên điện thoại và máy tính <br>&emsp; + Tham khảo giao diện từ các mẫu website có sẵn | 09/07/2026 | 18/07/2026 | <https://cloudjourney.awsstudygroup.com/> và <https://www.figma.com/community/website-templates> |
 
 
 ### Kết quả đạt được Tuần 5
 
-* Nắm vững các thành phần mạng cốt lõi trong **Amazon Virtual Private Cloud (Amazon VPC)**, bao gồm **VPC**, **Subnet**, **Route Table**, **Internet Gateway**, **NAT Gateway**, **Security Group** và **Site to Site AWS VPN**.
+* Hiểu được cơ chế xác thực và phân quyền của **Amazon Cognito**, bao gồm vai trò của **User Pool** và **Identity Pool** trong việc quản lý người dùng và cấp quyền truy cập cho ứng dụng.
 
-* Thiết kế và triển khai thành công một hệ thống mạng ảo mô phỏng kết nối giữa hai tiệm Internet, qua đó tích lũy kinh nghiệm thực tế trong việc cấu hình và quản lý các tài nguyên mạng trên AWS.
+* Thực hành xây dựng và kiểm thử quy trình xác thực người dùng bằng **Amazon Cognito**, đồng thời hiểu được luồng trao đổi dữ liệu giữa ứng dụng, **Amazon Cognito** và **Amazon API Gateway**.
 
-* Hiểu và thực hành cách khởi tạo, cấu hình và quản lý các máy chủ ảo **Amazon EC2**, bao gồm kết nối đến máy chủ và kiểm tra khả năng kết nối mạng.
+* Làm quen với các chức năng giám sát của **Amazon CloudWatch**, bao gồm thu thập chỉ số (**Metrics**), quản lý nhật ký (**Logs**), thiết lập cảnh báo (**Alarms**) và trực quan hóa dữ liệu thông qua **Dashboards**.
 
-* Hiểu được vai trò và cách cấu hình **NAT Gateway**, cho phép các máy chủ trong **Private Subnet** truy cập Internet một cách an toàn mà không chấp nhận các kết nối truy cập từ bên ngoài.
-
-* Sử dụng **Reachability Analyzer** để phân tích, kiểm tra và xác minh khả năng kết nối mạng giữa các tài nguyên trên AWS.
-
-> ⚠️ **AWS VPC** và **Amazon EC2** tự động trừ tín dụng theo giờ, kể cả khi không ai truy cập. Trung bình, **mỗi ngày cần khoảng $4** để duy trì hệ thống mạng
+* Hiểu được cách sử dụng **Amazon CloudWatch** để theo dõi hoạt động của các dịch vụ AWS, hỗ trợ phát hiện lỗi và phân tích nguyên nhân trong quá trình phát triển hệ thống.
 
 * **Đối với dự án nhóm:**
 
-    ** Phối hợp với các thành viên trong nhóm để thiết kế kiến trúc ban đầu của dự án thông qua việc xây dựng các **Use Case Diagram** và **Sequence Diagram**.
+    * Kiểm tra và đánh giá khả năng tích hợp giữa **Amazon API Gateway**, **Amazon Cognito**, **Amazon CloudWatch** và **Amazon DynamoDB**, qua đó hiểu rõ hơn luồng xử lý yêu cầu và cơ chế bảo mật của hệ thống.
 
-    ** Xây dựng mô hình dữ liệu và cấu trúc cơ sở dữ liệu ban đầu nhằm đáp ứng các yêu cầu chức năng của dự án.
+    * Tham gia thảo luận, đánh giá và lựa chọn giao diện người dùng phù hợp với yêu cầu của dự án, ưu tiên thiết kế có khả năng hiển thị tốt trên cả máy tính và thiết bị di động.
 
-    ** Củng cố kỹ năng sử dụng **AWS CLI** trong quá trình phát triển, triển khai và quản lý các tài nguyên trên nền tảng AWS.
+    * Cập nhật và điều chỉnh thiết kế API dựa trên quá trình tìm hiểu cơ chế xác thực và giám sát hệ thống, góp phần nâng cao tính nhất quán giữa tài liệu thiết kế và quá trình triển khai thực tế.

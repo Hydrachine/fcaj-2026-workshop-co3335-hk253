@@ -32,7 +32,7 @@ pre: " <b> 1.3. </b> "
 
 * Làm quen với **MobaXterm** để quản lý kết nối SSH, truyền tệp và thao tác với máy chủ từ xa trong quá trình phát triển và triển khai hệ thống.
 
-* **Đối với dự án nhóm:
+* **Đối với dự án nhóm:**
 
     * Đánh giá hai phương án triển khai hệ thống gồm kiến trúc truyền thống (sử dụng **Amazon EC2**, **Amazon RDS**, **Amazon S3**) và kiến trúc **AWS Serverless** sử dụng **AWS SAM**, từ đó hiểu được ưu điểm, hạn chế và phạm vi áp dụng của từng mô hình.
 
