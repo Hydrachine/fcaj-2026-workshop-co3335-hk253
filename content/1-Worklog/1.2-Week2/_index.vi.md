@@ -18,7 +18,7 @@ pre: " <b> 1.2. </b> "
 
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | ---- | --------- | ------------ | --------------- | -------------- | 
-| 2 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Ôn tập subnets, route tables, các loại gateway <br>&emsp; + Thiết lập tường lửa trong **AWS VPC** | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Thực hành**: Làm quen dịch vụ mạng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Ôn tập subnets, route tables, các loại gateway <br>&emsp; + Thiết lập tường lửa trong **AWS VPC** | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 3 | - **Thực hành**: Thiết lập máy chủ ảo bằng **EC2 Intances** <br>&emsp; + Tạo máy chủ và kiểm tra kết nối <br>&emsp; + Kết nối mạng bằng **NAT Gateway** <br>&emsp; + Quản lý kết nối mạng bằng **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 4 | - Thiết kế kiến trúc cơ bản của dự án: <br>&emsp; + Vẽ sơ đồ các **Use Case** và **Sequence** <br>&emsp; + Chọn cấu trúc dữ liệu cho dự án <br>&emsp; + Cách sử dụng AWS CLI | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 6 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Tạo và quản lý hệ thống mạng AWS VPC giả lập kết nối hai tiệm net | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
