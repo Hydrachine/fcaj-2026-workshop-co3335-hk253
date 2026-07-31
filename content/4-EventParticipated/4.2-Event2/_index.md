@@ -11,109 +11,69 @@ pre: " <b> 4.2. </b> "
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Share practical experiences and lessons learned from participating in a Hackathon.
+- Introduce a multi-channel AI ordering assistant integrated with the Zalo platform.
+- Demonstrate an AI Native application that assists Solution Architects in automating cloud architecture design.
+- Present Signal Scout, an AI-powered platform for market trend analysis and business decision support.
 
 ### Speakers
 
 - **HUỲNH AN KHƯƠNG, NGUYỄN QUỐC HUY, NGÔ QUANG KHÔI, HOÀNG LÊ THÀNH ĐỨC, ĐẶNG NGUYỄN PHƯỚC LỘC, ĐẶNG TRƯỜNG HƯNG**
+- **Anh Duy, Tran Dong, Doan Trung, Minh Viet, Anshul Roy**
+- **Pham Tien Thuan Phat, Huynh Hoang Long, Le Minh Nghia, Tran Dai Vi, Nguyen An**
+- **Le Tan Luc, Do Hoang Hieu, Trieu Quoc Hao, Nguyen Van Duy Khiem, Nguyen Cong Minh, Nguyen Tran Minh Quan**
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+The event featured presentations from the winning teams of the **FCAJ x Agentic AI Build Week** Hackathon, who shared their product ideas, development process, technical challenges, and practical lessons learned throughout the competition.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The main highlights included:
 
-#### Transitioning to modern application architecture – Microservices
-
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
-
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
-
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- Presenting **S.H.E.P.H.E.R.D.**, an AI-powered crowd monitoring system that combines Computer Vision, Amazon SageMaker, and Amazon Bedrock Agents to detect congestion, predict crowd conditions, and support real-time operational decisions.
+- Demonstrating a multi-channel AI ordering assistant integrated with Zalo, enabling customers to place orders directly within a conversation while leveraging Agentic AI to automate the ordering workflow.
+- Introducing an AI Native application for Solution Architects that analyzes project requirements, generates AWS architecture diagrams, and provides preliminary cloud cost estimates.
+- Presenting **Signal Scout**, an AI-powered platform that collects market signals, analyzes business trends, and supports enterprise decision-making through evidence-based recommendations.
 
 ### Key Takeaways
 
-#### Design Mindset
+After attending the event, I gained valuable practical insights into modern AI application development, including:
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Understanding the complete product development workflow in a Hackathon, from ideation and team collaboration to implementation and final presentation.
+- Learning how AWS AI services can be combined to build intelligent solutions for a variety of real-world use cases.
+- Gaining a better understanding of AI Native application design, particularly the concept of Agentic AI beyond traditional chatbot systems.
+- Recognizing the importance of defining project scope, preparing development environments, and establishing a clear execution plan before implementation.
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+The knowledge gained from this event can be directly applied to both my internship and future software development projects.
+
+Specifically, I can:
+
+- Apply an MVP-oriented development approach to deliver functional products within limited timeframes.
+- Explore Agentic AI techniques for building intelligent systems capable of planning, reasoning, and using external tools autonomously.
+- Apply AI Native architecture principles when designing cloud applications on AWS.
+- Improve teamwork, time management, and presentation skills for future software development projects.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the **FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!** provided valuable insights into how AI products are developed under the time constraints of a Hackathon. Instead of presenting only the final products, the speakers openly shared their challenges, failures, technical decisions, and lessons learned throughout the development process.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+The event demonstrated that building a successful product depends not only on technology but also on effective teamwork, clear project scope, and efficient execution. These presentations provided me with a more realistic understanding of AI product development and the skills required to participate successfully in future Hackathons.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### AI Product Development
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+- Learned the complete workflow of AI product development, from identifying problems and building prototypes to deployment and evaluation.
+- Explored practical AI applications in Computer Vision, AI assistants, and enterprise data analysis.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+#### AI Native System Design
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+- Learned how multiple AWS services can be combined to build scalable AI Native applications.
+- Gained a better understanding of the role of Agentic AI in solving complex tasks beyond traditional conversational chatbots.
+
+#### Teamwork and Hackathons
+
+- Learned practical techniques for time management, task allocation, and team collaboration during intensive development cycles.
+- Realized that clear direction, effective execution, and strong teamwork are the key factors behind a successful Hackathon project.  
 
 #### Some event photos
 
