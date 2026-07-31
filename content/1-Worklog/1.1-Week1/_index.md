@@ -1,57 +1,41 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-07-29
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 1 Objectives:
+### Week 1 Objectives
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Week 1 was conducted from **08/06/2026** to **14/06/2026**, including the online Google Meet orientation session held on the evening of **07/06/2026** (a total of 8 days).
+* Get acquainted with other participants in the **First Cloud AI Journey (FCAJ) 2026** program.
+* Learn about the company's working environment, regulations, and internship policies.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be carried out this week
+
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ | 
+| 1 | -**Orientation meeting** <br>&emsp; + Introduction to the FCAJ 2026 program <br>&emsp; + Company regulations and policies <br>&emsp; + Working culture <br>&emsp; + Learning resources and documentation <br>&emsp; + Q&A session | 07/06/2026 | 07/06/2026 | <https://app.notion.com/p/Group-description-BKU-36cdf829a73080bea56cfa322fa2e132> |
+| 4 | - Get acquainted with FCAJ members <br> - Review the internship regulations and working guidelines <br> - Explore the overall learning roadmap and required topics | 10/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Create an **AWS Free Tier** account <br> - Form a project team with other participants <br> - **Hands-on practice:** <br>&emsp; + Create an AWS account <br>&emsp; + Install and configure AWS CLI <br>&emsp; + Learn the basic usage of AWS CLI | 11/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | - Learn AWS account management best practices: <br>&emsp; + Complete the five introductory onboarding tasks <br>&emsp; + Review the reference architecture that fits within the **USD 200 AWS credit** <br> - Participate in team discussions to brainstorm and determine the project topic | 12/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 8 | **Hands-on practice:** <br>&emsp; + Configure AWS Budget alerts for credit usage <br>&emsp; + Explore AWS Support services <br>&emsp; + Create IAM users and manage permissions using AWS Identity and Access Management (AWS IAM) | 14/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Week 1 Achievements:
+### Week 1 achievements
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Identified the primary learning resources and documentation used throughout the internship program.
 
-* Successfully created and configured an AWS Free Tier account.
+* Gained a fundamental understanding of AWS and its core service categories, including **Compute**, **Storage**, **Networking**, and **Database**.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully created and configured an **AWS Free Tier** account.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Installed and configured **AWS CLI**, including the **Access Key**, **Secret Access Key**, and the default **AWS Region**.
 
-* Used AWS CLI to perform basic operations such as:
+* Configured **AWS Budget** to monitor AWS credit consumption and receive notifications at **10%**, **25%**, **50%**, **75%**, **90%**, and **100%** usage thresholds.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Used the **AWS Support** AI chatbot to obtain guidance on AWS services and troubleshoot configuration issues.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Used **AWS Identity and Access Management (AWS IAM)** to create IAM users for managing the AWS account while following the **Principle of Least Privilege**, granting only the permissions required for assigned tasks and periodically reviewing access permissions.

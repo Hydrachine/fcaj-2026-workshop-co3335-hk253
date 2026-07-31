@@ -37,9 +37,9 @@ Hệ thống được thiết kế theo mô hình **Serverless 100%**, tận d�
 
 ### Timeline (8 tuần)
 - **Tuần 1-2:** Khảo sát yêu cầu, thiết kế kiến trúc hệ thống (Sơ đồ Use Case, Sequence Diagram) và setup kho lưu trữ (GitHub).
-- **Tuần 3-4:** Phát triển hệ thống Backend (AWS SAM, Lambda, API Gateway, DynamoDB).
-- **Tuần 5-6:** Xây dựng giao diện Frontend (React/Vite) và tích hợp API.
-- **Tuần 7:** Triển khai thử nghiệm (Beta testing) và sửa lỗi (Bug fixing).
+- **Tuần 3-4-5-6:** Phát triển hệ thống Backend (AWS SAM, Lambda, API Gateway, DynamoDB).
+- **Tuần 5-6-7:** Xây dựng giao diện Frontend (React/Vite) và tích hợp API.
+- **Tuần 7-8:** Triển khai thử nghiệm (Beta testing) và sửa lỗi (Bug fixing).
 - **Tuần 8:** Viết tài liệu, tinh chỉnh bảo mật và báo cáo dự án.
 
 ### Ngân sách 

@@ -1,16 +1,16 @@
 ---
-title: "Worklog Tuần 4"
+title: "Worklog Tuần 8"
 date: 2026-07-29
 weight: 1
 chapter: false
-pre: " <b> 1.4. </b> "
+pre: " <b> 1.8. </b> "
 ---
 {{% notice warning %}}
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
 
-### Mục tiêu tuần 4:
+### Mục tiêu tuần 8:
 
 * Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
@@ -25,7 +25,7 @@ pre: " <b> 1.4. </b> "
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Kết quả đạt được tuần 4:
+### Kết quả đạt được tuần 8:
 
 * Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
   * Compute

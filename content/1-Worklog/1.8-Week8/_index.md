@@ -1,16 +1,16 @@
 ---
-title: "Week 6 Worklog"
+title: "Week 8 Worklog"
 date: 2026-07-29
 weight: 1
 chapter: false
-pre: " <b> 1.6. </b> "
+pre: " <b> 1.8. </b> "
 ---
 {{% notice warning %}} 
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
 
-### Week 6 Objectives:
+### Week 8 Objectives:
 
 * Connect and get acquainted with members of First Cloud AI Journey.
 * Understand basic AWS services, how to use the console & CLI.
@@ -25,7 +25,7 @@ pre: " <b> 1.6. </b> "
 | 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Week 6 Achievements:
+### Week 8 Achievements:
 
 * Understood what AWS is and mastered the basic service groups: 
   * Compute
