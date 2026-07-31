@@ -10,39 +10,31 @@ pre: " <b> 1.7. </b> "
 ### Week 7 Objectives
 
 * Week 7 was conducted from **20/07/2026** to **26/07/2026**.
-* Gain a deeper understanding of AWS networking services, particularly **Amazon Virtual Private Cloud (Amazon VPC)**.
-* Learn how to deploy and manage virtual machines using **Amazon EC2**.
-* Design the initial software architecture and system workflow for the internship project.
+* Finalize the project by resolving the remaining issues before delivery.
+* Learn and customize the company's **Hugo** template to prepare the individual internship report.
 
 
 ### Tasks to be carried out this week
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | **Hands-on practice:** Explore **Amazon Virtual Private Cloud (Amazon VPC)** <br>&emsp; + Review subnets, route tables, and different types of gateways <br>&emsp; + Configure firewall rules using Security Groups and Network ACLs | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | **Hands-on practice:** Deploy virtual servers using **Amazon EC2** <br>&emsp; + Launch EC2 instances and verify connectivity <br>&emsp; + Configure Internet access through a **NAT Gateway** <br>&emsp; + Analyze network connectivity using **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | Design the initial project architecture <br>&emsp; + Create **Use Case Diagrams** and **Sequence Diagrams** <br>&emsp; + Select the appropriate data model and database structure <br>&emsp; + Review the AWS CLI workflow used during development | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | **Hands-on practice:** Continue working with **Amazon VPC** <br>&emsp; + Create, configure, and manage the virtual network environment <br>&emsp; + Validate communication between multiple subnets and network components within the simulated topology | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | Perform final system testing <br>&emsp; + Fix minor issues related to the user interface, rendering, and unexpected behaviors during system usage <br>&emsp; + Discuss feedback with mentors to further improve the project | 21/07/2026 | 30/07/2026 |                                                          |
+| 4 | Complete the individual report using the company's **Hugo** template <br>&emsp; + Fork the Hugo template repository and study its project structure <br>&emsp; + Customize the layout and content according to the company's requirements | 23/07/2026 | 31/07/2026 | <https://github.com/thienluhoan/fcj-workshop-template.git> |
 
 
 ### Week 7 achievements
 
-* Acquired a solid understanding of the core networking components in **Amazon VPC**, including **VPCs**, **Subnets**, **Route Tables**, **Internet Gateways**, **NAT Gateways**, **Security Groups**, and **Site to Site AWS VPN**.
+* Completed the final round of system testing and resolved minor issues related to the user interface, rendering, and unexpected runtime behaviors.
 
-* Successfully designed and deployed a virtual network that simulated communication between two Internet cafés, gaining practical experience in configuring AWS networking resources.
+* Incorporated feedback from mentors and team members to improve the stability, usability, and overall quality of the project.
 
-* Learned how to launch, configure, and manage **Amazon EC2** instances, including connecting to virtual machines and verifying network connectivity.
+* Gained a solid understanding of how static websites are built with **Hugo**, including content organization, theme structure, and the static site generation workflow.
 
-* Understood the purpose and configuration of **NAT Gateway**, enabling instances in private subnets to securely access the Internet without accepting inbound connections.
+* Successfully customized the company's **Hugo** template by adapting the report structure, user interface, and navigation system to meet the required specifications.
 
-* Used **Reachability Analyzer** to troubleshoot and validate network connectivity between AWS resources.
+* Successfully deployed the report website to **GitHub Pages**, configured the project domain, and verified that the published website was accessible.
 
-> ⚠️ **AWS VPC** and **Amazon EC2** automatically consume AWS credits on an hourly basis, even when there is no active traffic or user access. On average, maintaining the networking environment requires approximately **USD 4 per day**
+* Resolved deployment issues involving **GitHub Actions**, **Git Submodules**, multilingual content, and customization of several Hugo theme components.
 
-* **About the group project:**
-    
-    ** Collaborated with team members to design the initial software architecture by creating **Use Case Diagrams** and **Sequence Diagrams**.
+* Completed the individual internship report, ensuring that the documentation was comprehensive, well-structured, and compliant with the company's reporting requirements.
 
-    ** Defined the preliminary data model and database structure to support the functional requirements of the project.
-
-    ** Reinforced practical experience with the **AWS CLI** as part of the development and management workflow.

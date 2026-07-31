@@ -10,38 +10,29 @@ pre: " <b> 1.7. </b> "
 ### Mục tiêu Tuần 7
 
 * Tuần 7 bắt đầu từ ngày **20/07/2026** đến ngày **26/07/2026**.
-* Tìm hiểu chi tiết các dịch vụ mạng của AWS, đặc biệt là dịch vụ **Amazon Virtual Private Cloud (Amazon VPC)**.
-* Tìm hiểu, thực hành cách triển khai (deploy) và quản lý máy chủ ảo bằng **Amazon EC2**.
-* Hoàn thiện bản thiết kế đầu tiên kiến trúc phần mềm và luồng hệ thống (workflow) dự án của nhóm.
+* Hoàn thiện và khắc phục các lỗi còn tồn tại của dự án trước khi bàn giao.
+* Tìm hiểu và tùy chỉnh **template Hugo** theo yêu cầu của doanh nghiệp để xây dựng báo cáo cá nhân.
 
 ### Các công việc cần triển khai trong tuần này
 
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | ---- | --------- | ------------ | --------------- | -------------- | 
-| 2 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Ôn tập subnets, route tables, các loại gateway <br>&emsp; + Thiết lập tường lửa trong **AWS VPC** | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - **Thực hành**: Thiết lập máy chủ ảo bằng **EC2 Intances** <br>&emsp; + Tạo máy chủ và kiểm tra kết nối <br>&emsp; + Kết nối mạng bằng **NAT Gateway** <br>&emsp; + Quản lý kết nối mạng bằng **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Thiết kế kiến trúc cơ bản của dự án: <br>&emsp; + Vẽ sơ đồ các **Use Case** và **Sequence** <br>&emsp; + Chọn cấu trúc dữ liệu cho dự án <br>&emsp; + Cách sử dụng AWS CLI | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Tạo và quản lý hệ thống mạng AWS VPC giả lập kết nối hai tiệm net | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Kiểm thử dự án <br>&emsp; + Khắc phục các lỗi nhỏ về giao diện, hiển thị và các trường hợp phát sinh trong quá trình sử dụng <br>&emsp; + Trao đổi với các anh chị hướng dẫn để tiếp nhận góp ý và hoàn thiện sản phẩm | 21/07/2026 | 30/07/2026 |  |
+| 4 | - Hoàn thiện báo cáo cá nhân bằng **template Hugo** của doanh nghiệp <br>&emsp; + Tạo bản sao (fork) của template Hugo và tìm hiểu cấu trúc mã nguồn  <br>&emsp; + Tùy chỉnh giao diện và nội dung theo yêu cầu của doanh nghiệp | 23/07/2026 | 31/07/2026 | <https://github.com/thienluhoan/fcj-workshop-template.git> |
 
 
 ### Kết quả đạt được Tuần 7
 
-* Nắm vững các thành phần mạng cốt lõi trong **Amazon Virtual Private Cloud (Amazon VPC)**, bao gồm **VPC**, **Subnet**, **Route Table**, **Internet Gateway**, **NAT Gateway**, **Security Group** và **Site to Site AWS VPN**.
+* Hoàn thiện việc kiểm thử hệ thống, khắc phục các lỗi nhỏ liên quan đến giao diện, hiển thị và một số trường hợp phát sinh trong quá trình sử dụng thực tế.
 
-* Thiết kế và triển khai thành công một hệ thống mạng ảo mô phỏng kết nối giữa hai tiệm Internet, qua đó tích lũy kinh nghiệm thực tế trong việc cấu hình và quản lý các tài nguyên mạng trên AWS.
+* Tiếp nhận các góp ý từ người hướng dẫn và thành viên trong nhóm để điều chỉnh, cải thiện tính ổn định và trải nghiệm sử dụng của hệ thống.
 
-* Hiểu và thực hành cách khởi tạo, cấu hình và quản lý các máy chủ ảo **Amazon EC2**, bao gồm kết nối đến máy chủ và kiểm tra khả năng kết nối mạng.
+* Hiểu được cấu trúc và quy trình xây dựng website tĩnh bằng **Hugo**, bao gồm tổ chức nội dung, giao diện và cơ chế sinh trang tĩnh.
 
-* Hiểu được vai trò và cách cấu hình **NAT Gateway**, cho phép các máy chủ trong **Private Subnet** truy cập Internet một cách an toàn mà không chấp nhận các kết nối truy cập từ bên ngoài.
+* Hoàn thành việc tùy chỉnh **template Hugo** theo yêu cầu của doanh nghiệp, bao gồm cấu trúc báo cáo, giao diện hiển thị và hệ thống điều hướng.
 
-* Sử dụng **Reachability Analyzer** để phân tích, kiểm tra và xác minh khả năng kết nối mạng giữa các tài nguyên trên AWS.
+* Triển khai thành công website báo cáo lên **GitHub Pages**, đồng thời cấu hình tên miền và kiểm tra khả năng truy cập của website sau khi triển khai.
 
-> ⚠️ **AWS VPC** và **Amazon EC2** tự động trừ tín dụng theo giờ, kể cả khi không ai truy cập. Trung bình, **mỗi ngày cần khoảng $4** để duy trì hệ thống mạng
+* Khắc phục các vấn đề phát sinh trong quá trình triển khai như cấu hình GitHub Actions, quản lý Git Submodule, đa ngôn ngữ và tùy chỉnh một số thành phần của giao diện Hugo.
 
-* **Đối với dự án nhóm:**
-
-    ** Phối hợp với các thành viên trong nhóm để thiết kế kiến trúc ban đầu của dự án thông qua việc xây dựng các **Use Case Diagram** và **Sequence Diagram**.
-
-    ** Xây dựng mô hình dữ liệu và cấu trúc cơ sở dữ liệu ban đầu nhằm đáp ứng các yêu cầu chức năng của dự án.
-
-    ** Củng cố kỹ năng sử dụng **AWS CLI** trong quá trình phát triển, triển khai và quản lý các tài nguyên trên nền tảng AWS.
+* Hoàn thiện nội dung báo cáo cá nhân, bảo đảm tài liệu được trình bày đầy đủ, nhất quán và đáp ứng các yêu cầu của doanh nghiệp.
