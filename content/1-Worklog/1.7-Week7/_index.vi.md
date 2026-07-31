@@ -1,15 +1,15 @@
 ---
-title: "Worklog Tuần 2"
+title: "Worklog Tuần 7"
 date: 2026-07-29
 weight: 1
 chapter: false
-pre: " <b> 1.2. </b> "
+pre: " <b> 1.7. </b> "
 ---
 
 
-### Mục tiêu Tuần 2
+### Mục tiêu Tuần 7
 
-* Tuần 2 bắt đầu từ ngày **15/06/2026** đến ngày **21/06/2026**.
+* Tuần 7 bắt đầu từ ngày **20/07/2026** đến ngày **26/07/2026**.
 * Tìm hiểu chi tiết các dịch vụ mạng của AWS, đặc biệt là dịch vụ **Amazon Virtual Private Cloud (Amazon VPC)**.
 * Tìm hiểu, thực hành cách triển khai (deploy) và quản lý máy chủ ảo bằng **Amazon EC2**.
 * Hoàn thiện bản thiết kế đầu tiên kiến trúc phần mềm và luồng hệ thống (workflow) dự án của nhóm.
@@ -24,7 +24,7 @@ pre: " <b> 1.2. </b> "
 | 6 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Tạo và quản lý hệ thống mạng AWS VPC giả lập kết nối hai tiệm net | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Kết quả đạt được Tuần 2
+### Kết quả đạt được Tuần 7
 
 * Nắm vững các thành phần mạng cốt lõi trong **Amazon Virtual Private Cloud (Amazon VPC)**, bao gồm **VPC**, **Subnet**, **Route Table**, **Internet Gateway**, **NAT Gateway**, **Security Group** và **Site to Site AWS VPN**.
 

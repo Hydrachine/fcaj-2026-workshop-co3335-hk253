@@ -1,47 +1,43 @@
 ---
-title: "Worklog Tuần 2"
+title: "Worklog Tuần 8"
 date: 2026-07-29
 weight: 1
 chapter: false
-pre: " <b> 1.2. </b> "
+pre: " <b> 1.8. </b> "
 ---
 
 
-### Mục tiêu Tuần 2
+### Mục tiêu Tuần 8
 
-* Tuần 2 bắt đầu từ ngày **15/06/2026** đến ngày **21/06/2026**.
-* Tìm hiểu chi tiết các dịch vụ mạng của AWS, đặc biệt là dịch vụ **Amazon Virtual Private Cloud (Amazon VPC)**.
-* Tìm hiểu, thực hành cách triển khai (deploy) và quản lý máy chủ ảo bằng **Amazon EC2**.
-* Hoàn thiện bản thiết kế đầu tiên kiến trúc phần mềm và luồng hệ thống (workflow) dự án của nhóm.
+* Tuần 8 bắt đầu từ ngày **27/07/2026** đến ngày **02/08/2026**.
+* Đăng 3 bài viết chia sẻ kiến thức và kinh nghiệm rút ra khi làm dự án lên nhóm Facebook "AWS Study Group VN".
+* Hoàn thiện toàn bộ dự án và tài liệu liên quan đến dự án.
+* Hoàn thiện báo cáo thực tập.
 
 ### Các công việc cần triển khai trong tuần này
 
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | ---- | --------- | ------------ | --------------- | -------------- | 
-| 2 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Ôn tập subnets, route tables, các loại gateway <br>&emsp; + Thiết lập tường lửa trong **AWS VPC** | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - **Thực hành**: Thiết lập máy chủ ảo bằng **EC2 Intances** <br>&emsp; + Tạo máy chủ và kiểm tra kết nối <br>&emsp; + Kết nối mạng bằng **NAT Gateway** <br>&emsp; + Quản lý kết nối mạng bằng **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Thiết kế kiến trúc cơ bản của dự án: <br>&emsp; + Vẽ sơ đồ các **Use Case** và **Sequence** <br>&emsp; + Chọn cấu trúc dữ liệu cho dự án <br>&emsp; + Cách sử dụng AWS CLI | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Tạo và quản lý hệ thống mạng AWS VPC giả lập kết nối hai tiệm net | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 1 | - Hoàn thiện dự án để nộp cho doanh nghiệp: <br>&emsp; + Mã nguồn dự án <br>&emsp; + Tài liệu báo cáo nộp cá nhân <br>&emsp; + Triển khai (deploy) lên website riêng | 27/07/2026 | 31/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | Đăng 3 bài viết  trên "AWS Study Group VN" chia sẻ kiến thức và kinh nghiệm rút ra sau khi làm dự án với nhóm** (xem thêm tại mục [3. Các bài blogs đã đăng](/fcaj-2026-workshop-co3335-hk253/vi/3-blogsposted/)) | 28/07/2026 | 29/07/2026 | <https://aws.amazon.com/vi/serverless/> và <https://aws.amazon.com/vi/serverless/sam/> |
+| 4 | - Xây dựng bộ công cụ hỗ trợ chuyển đổi tài liệu dự án sang báo cáo thực tập: <br>&emsp; + LaTeX <br>&emsp; + Pandoc <br>&emsp; + Hugo | 31/07/2026 | 02/08/2026 |  |
 
 
-### Kết quả đạt được Tuần 2
 
-* Nắm vững các thành phần mạng cốt lõi trong **Amazon Virtual Private Cloud (Amazon VPC)**, bao gồm **VPC**, **Subnet**, **Route Table**, **Internet Gateway**, **NAT Gateway**, **Security Group** và **Site to Site AWS VPN**.
+### Kết quả đạt được Tuần 8
 
-* Thiết kế và triển khai thành công một hệ thống mạng ảo mô phỏng kết nối giữa hai tiệm Internet, qua đó tích lũy kinh nghiệm thực tế trong việc cấu hình và quản lý các tài nguyên mạng trên AWS.
 
-* Hiểu và thực hành cách khởi tạo, cấu hình và quản lý các máy chủ ảo **Amazon EC2**, bao gồm kết nối đến máy chủ và kiểm tra khả năng kết nối mạng.
+* Hoàn thiện toàn bộ mã nguồn của dự án, đảm bảo các chức năng chính hoạt động ổn định và đáp ứng các yêu cầu được đặt ra trong giai đoạn thực tập.
 
-* Hiểu được vai trò và cách cấu hình **NAT Gateway**, cho phép các máy chủ trong **Private Subnet** truy cập Internet một cách an toàn mà không chấp nhận các kết nối truy cập từ bên ngoài.
+* Hoàn thiện các tài liệu kỹ thuật của dự án, bao gồm tài liệu thiết kế hệ thống, tài liệu hướng dẫn triển khai, tài liệu hướng dẫn sử dụng và các tài liệu phục vụ quá trình bàn giao.
 
-* Sử dụng **Reachability Analyzer** để phân tích, kiểm tra và xác minh khả năng kết nối mạng giữa các tài nguyên trên AWS.
+* Triển khai thành công website của dự án và tài liệu hướng dẫn lên tên miền cá nhân, giúp người dùng có thể dễ dàng truy cập và tham khảo trực tuyến.
 
-> ⚠️ **AWS VPC** và **Amazon EC2** tự động trừ tín dụng theo giờ, kể cả khi không ai truy cập. Trung bình, **mỗi ngày cần khoảng $4** để duy trì hệ thống mạng
+* Hoàn thành 03 bài viết chia sẻ kiến thức về **AWS Serverless** và những kinh nghiệm thực tế thu được trong quá trình phát triển dự án, đóng góp cho cộng đồng **AWS Study Group VN**.
 
-* **Đối với dự án nhóm:**
+* Xây dựng quy trình và bộ công cụ hỗ trợ chuyển đổi nội dung từ tài liệu dự án sang báo cáo thực tập bằng **LaTeX**, **Pandoc** và **Hugo**, giúp giảm đáng kể thời gian chỉnh sửa và định dạng tài liệu.
 
-    ** Phối hợp với các thành viên trong nhóm để thiết kế kiến trúc ban đầu của dự án thông qua việc xây dựng các **Use Case Diagram** và **Sequence Diagram**.
+* Hoàn thiện báo cáo thực tập, tổng hợp đầy đủ quá trình thực hiện dự án, các kết quả đạt được, bài học kinh nghiệm và định hướng phát triển trong tương lai.
 
-    ** Xây dựng mô hình dữ liệu và cấu trúc cơ sở dữ liệu ban đầu nhằm đáp ứng các yêu cầu chức năng của dự án.
+* Củng cố kiến thức về kiến trúc **AWS Serverless**, đồng thời nâng cao kỹ năng thiết kế hệ thống, phát triển phần mềm, làm việc nhóm, quản lý tài liệu và trình bày kết quả của một dự án thực tế.
 
-    ** Củng cố kỹ năng sử dụng **AWS CLI** trong quá trình phát triển, triển khai và quản lý các tài nguyên trên nền tảng AWS.

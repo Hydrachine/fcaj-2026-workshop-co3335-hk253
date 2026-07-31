@@ -41,8 +41,8 @@ pre: " <b> 1.2. </b> "
 
 * **About the group project:**
     
-    ** Collaborated with team members to design the initial software architecture by creating **Use Case Diagrams** and **Sequence Diagrams**.
+    * Collaborated with team members to design the initial software architecture by creating **Use Case Diagrams** and **Sequence Diagrams**.
 
-    ** Defined the preliminary data model and database structure to support the functional requirements of the project.
+    * Defined the preliminary data model and database structure to support the functional requirements of the project.
 
-    ** Reinforced practical experience with the **AWS CLI** as part of the development and management workflow.
+    * Reinforced practical experience with the **AWS CLI** as part of the development and management workflow.

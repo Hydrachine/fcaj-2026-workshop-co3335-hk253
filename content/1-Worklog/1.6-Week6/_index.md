@@ -1,15 +1,15 @@
 ---
-title: "Week 2 Worklog"
+title: "Week 6 Worklog"
 date: 2026-07-29
 weight: 1
 chapter: false
-pre: " <b> 1.2. </b> "
+pre: " <b> 1.6. </b> "
 ---
 
 
-### Week 2 Objectives
+### Week 6 Objectives
 
-* Week 2 was conducted from **15/06/2026** to **21/06/2026**.
+* Week 6 was conducted from **13/07/2026** to **19/07/2026**.
 * Gain a deeper understanding of AWS networking services, particularly **Amazon Virtual Private Cloud (Amazon VPC)**.
 * Learn how to deploy and manage virtual machines using **Amazon EC2**.
 * Design the initial software architecture and system workflow for the internship project.
@@ -25,7 +25,7 @@ pre: " <b> 1.2. </b> "
 | 6 | **Hands-on practice:** Continue working with **Amazon VPC** <br>&emsp; + Create, configure, and manage the virtual network environment <br>&emsp; + Validate communication between multiple subnets and network components within the simulated topology | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Week 2 achievements
+### Week 6 achievements
 
 * Acquired a solid understanding of the core networking components in **Amazon VPC**, including **VPCs**, **Subnets**, **Route Tables**, **Internet Gateways**, **NAT Gateways**, **Security Groups**, and **Site to Site AWS VPN**.
 

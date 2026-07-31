@@ -1,48 +1,41 @@
 ---
-title: "Week 2 Worklog"
+title: "Week 8 Worklog"
 date: 2026-07-29
 weight: 1
 chapter: false
-pre: " <b> 1.2. </b> "
+pre: " <b> 1.8. </b> "
 ---
 
 
-### Week 2 Objectives
+### Week 8 Objectives
 
-* Week 2 was conducted from **15/06/2026** to **21/06/2026**.
-* Gain a deeper understanding of AWS networking services, particularly **Amazon Virtual Private Cloud (Amazon VPC)**.
-* Learn how to deploy and manage virtual machines using **Amazon EC2**.
-* Design the initial software architecture and system workflow for the internship project.
+* Week 8 was conducted from **27/07/2026** to **02/08/2026**.
+* Publish three technical articles sharing the knowledge and experience gained throughout the project on the **AWS Study Group VN** community.
+* Complete the project and all related documentation.
+* Finalize the internship report.
 
 
 ### Tasks to be carried out this week
 
 | Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---- | ---------- | --------------- | ------------------ |
-| 2 | **Hands-on practice:** Explore **Amazon Virtual Private Cloud (Amazon VPC)** <br>&emsp; + Review subnets, route tables, and different types of gateways <br>&emsp; + Configure firewall rules using Security Groups and Network ACLs | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | **Hands-on practice:** Deploy virtual servers using **Amazon EC2** <br>&emsp; + Launch EC2 instances and verify connectivity <br>&emsp; + Configure Internet access through a **NAT Gateway** <br>&emsp; + Analyze network connectivity using **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | Design the initial project architecture <br>&emsp; + Create **Use Case Diagrams** and **Sequence Diagrams** <br>&emsp; + Select the appropriate data model and database structure <br>&emsp; + Review the AWS CLI workflow used during development | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | **Hands-on practice:** Continue working with **Amazon VPC** <br>&emsp; + Create, configure, and manage the virtual network environment <br>&emsp; + Validate communication between multiple subnets and network components within the simulated topology | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| --- | ---- | ---------- | --------------- | -------------------|
+| 1 | - Complete the project for final submission <br>&emsp; + Finalize the project source code <br>&emsp; + Complete the individual technical report <br>&emsp; + Deploy the project website to a personal domain | 27/07/2026 | 31/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | Publish three technical articles on the **AWS Study Group VN** community to share the knowledge and practical experience gained throughout the project (see [3. Blogs Posted](/fcaj-2026-workshop-co3335-hk253/vi/3-blogsposted/)). | 28/07/2026 | 29/07/2026 | <https://aws.amazon.com/serverless/> and <https://aws.amazon.com/serverless/sam/> |
+| 4 | - Develop a documentation toolchain for converting project documents into the internship report format <br>&emsp; + LaTeX <br>&emsp; + Pandoc <br>&emsp; + Hugo | 31/07/2026 | 02/08/2026 | |
 
 
-### Week 2 achievements
+### Week 8 achievements
 
-* Acquired a solid understanding of the core networking components in **Amazon VPC**, including **VPCs**, **Subnets**, **Route Tables**, **Internet Gateways**, **NAT Gateways**, **Security Groups**, and **Site to Site AWS VPN**.
+* Completed the entire project source code, ensuring that all core functionalities operated correctly and satisfied the internship requirements.
 
-* Successfully designed and deployed a virtual network that simulated communication between two Internet cafés, gaining practical experience in configuring AWS networking resources.
+* Finalized the project's technical documentation, including the system design document, deployment guide, user guide, and other materials required for project handover.
 
-* Learned how to launch, configure, and manage **Amazon EC2** instances, including connecting to virtual machines and verifying network connectivity.
+* Successfully deployed the project website and technical documentation to a personal domain, allowing the project to be accessed and referenced online.
 
-* Understood the purpose and configuration of **NAT Gateway**, enabling instances in private subnets to securely access the Internet without accepting inbound connections.
+* Published three technical articles on **AWS Serverless**, sharing both theoretical knowledge and practical experience gained during the development of the project, thereby contributing to the **AWS Study Group VN** community.
 
-* Used **Reachability Analyzer** to troubleshoot and validate network connectivity between AWS resources.
+* Developed a documentation workflow and supporting toolchain using **LaTeX**, **Pandoc**, and **Hugo** to efficiently convert project documentation into the internship report format, significantly reducing the effort required for editing and formatting.
 
-> ⚠️ **AWS VPC** and **Amazon EC2** automatically consume AWS credits on an hourly basis, even when there is no active traffic or user access. On average, maintaining the networking environment requires approximately **USD 4 per day**
+* Completed the internship report, comprehensively documenting the project implementation process, achievements, lessons learned, and future development directions.
 
-* **About the group project:**
-    
-    ** Collaborated with team members to design the initial software architecture by creating **Use Case Diagrams** and **Sequence Diagrams**.
-
-    ** Defined the preliminary data model and database structure to support the functional requirements of the project.
-
-    ** Reinforced practical experience with the **AWS CLI** as part of the development and management workflow.
+* Strengthened knowledge of **AWS Serverless** architecture while improving practical skills in system design, software development, teamwork, technical documentation, and professional presentation of project outcomes.

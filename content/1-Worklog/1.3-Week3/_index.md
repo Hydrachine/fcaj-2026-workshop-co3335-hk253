@@ -33,10 +33,15 @@ pre: " <b> 1.3. </b> "
 
 * Became familiar with **MobaXterm** for SSH connections, file transfers, and remote server management during development and deployment.
 
-* Evaluated two deployment approaches: a traditional cloud architecture based on **Amazon EC2**, **Amazon RDS**, and **Amazon S3**, and a serverless architecture using **AWS Serverless Application Model (AWS SAM)**, gaining an understanding of the advantages, limitations, and suitable use cases of each approach.
+* **About the group project:**
 
-* Built and deployed the first serverless application using **AWS Serverless Application Model (AWS SAM)** while becoming familiar with the **build**, **deploy**, and **Infrastructure as Code (IaC)** workflow.
+    * Evaluated two deployment approaches: a traditional cloud architecture based on **Amazon EC2**, **Amazon RDS**, and **Amazon S3**, and a serverless architecture using **AWS Serverless Application Model (AWS SAM)**, gaining an understanding of the advantages, limitations, and suitable use cases of each approach.
 
-* Understood the roles of **AWS Lambda**, **Amazon API Gateway**, **Amazon DynamoDB**, and **Amazon Cognito** within a serverless architecture, as well as how these services work together to build a complete cloud-native application.
+    * Built and deployed the first serverless application using **AWS Serverless Application Model (AWS SAM)** while becoming familiar with the **build**, **deploy**, and **Infrastructure as Code (IaC)** workflow.
 
-* Designed the project architecture diagram using the official **AWS Architecture Icons**, providing a clear visualization of the system components and their interactions.
+    > Option 2 uses **framework AWS SAM is much optimizer** because the system only charge the credit by each activated protocols, while using custom services will more costly.
+    > **Choose AWS SAM**.
+
+    * Understood the roles of **AWS Lambda**, **Amazon API Gateway**, **Amazon DynamoDB**, and **Amazon Cognito** within a serverless architecture, as well as how these services work together to build a complete cloud-native application.
+
+    * Designed the project architecture diagram using the official **AWS Architecture Icons**, providing a clear visualization of the system components and their interactions.
