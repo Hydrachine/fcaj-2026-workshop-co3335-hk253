@@ -121,6 +121,26 @@ Attending the **“GenAI-powered App-DB Modernization”** workshop was extremel
 - AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
 
 #### Some event photos
-*Add your event photos here*  
+
+![01/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_082403.jpg)
+![02/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_083622.jpg)
+![03/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_102058.jpg)
+![04/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_103426.jpg)
+![05/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_103428.jpg)
+![06/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_103703.jpg)
+![07/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105420.jpg)
+![08/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105454.jpg)
+![09/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105607.jpg)
+![10/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105736.jpg)
+![11/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105742.jpg)
+![12/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105744.jpg)
+![13/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105952.jpg)
+![14/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_105957.jpg)
+![15/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_110340.jpg)
+![16/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_110455.jpg)
+![17/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_110502.jpg)
+![18/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_112624.jpg)
+![19/19](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.1-Event1/20260606_113545.jpg)
+
 
 > Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.

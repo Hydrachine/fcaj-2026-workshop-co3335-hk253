@@ -1,6 +1,6 @@
 ---
 title: "Event 2"
-date: 2024-01-01
+date: 2026-07-29
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
@@ -121,6 +121,21 @@ Attending the **“GenAI-powered App-DB Modernization”** workshop was extremel
 - AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
 
 #### Some event photos
-*Add your event photos here*  
+
+![01/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_090453.jpg)
+![02/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_090533.jpg)
+![03/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_093921.jpg)
+![04/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_093930.jpg)
+![05/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_093931.jpg)
+![06/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_094140.jpg)
+![07/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_100451.jpg)
+![08/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_103236.jpg)
+![09/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_105916.jpg)
+![10/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_105924.jpg)
+![11/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_105932.jpg)
+![12/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_105939.jpg)
+![13/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_112135.jpg)
+![14/14](/fcaj-2026-workshop-co3335-hk253/images/4-EventParticipated/4.2-Event2/20260725_120019.jpg)
+  
 
 > Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
