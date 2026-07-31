@@ -6,27 +6,18 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+**Tuần 1:** [Làm quen các thành viên FCAJ 2026, lập nhóm, và thao tác sử dụng vài dịch vụ cơ bản của AWS](1.1-week1/)
 
-**Trong trang này** bạn sẽ cần giới thiệu worklog của bạn **như thế nào**? Bạn hoàn thành chương trình trong vòng **bao nhiêu tuần**? Bạn **đã làm gì** trong các tuần đó?
+**Tuần 2:** [Tìm hiểu Amazon VPC, Amazon EC2, và ý tưởng triển khai dự án](1.2-week2/)
 
+**Tuần 3:** [Tìm hiểu Amazon S3, MobaXterm, và chạy thử nguyên mẫu (prototype) theo 2 hướng deploy](1.3-week3/)
 
-Thông thường và cũng là tiêu chuẩn, một worklog được thực hiện trong khoảng 3 tháng (trong suốt thời gian thực tập) với nội dung các tuần như sau:
+**Tuần 4:** [Phân công công việc trong nhóm, và tìm hiểu Amazon DynamoDB](1.4-week4/)
 
-**Tuần 1:** [Làm quen với AWS và các dịch vụ cơ bản trong AWS](1.1-week1/)
+**Tuần 5:** [Tìm hiểu Amazon Cognito và Amazon Cloudwatch; thiết kế frontend cho dự án](1.5-week5/)
 
-**Tuần 2:** [Làm công việc A...](1.2-week2/)
+**Tuần 6:** [Tham gia cùng nhóm thiết kế frontend và tích hợp API](1.6-week6/)
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+**Tuần 7:** [Vá lỗi dự án và viết báo cáo cá nhân theo template Hugo](1.7-week7/)
 
-**Tuần 4:** [Làm công việc C...](1.4-week4/)
-
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
-
-**Tuần 6:** [Làm công việc E...](1.6-week6/)
-
-**Tuần 7:** [Làm công việc F...](1.7-week7/)
-
-**Tuần 8:** [Làm công việc G...](1.8-week8/)
+**Tuần 8:** [Chia sẻ kiến thức lên "AWS Study Group VN" và hoàn thiện báo cáo](1.8-week8/)
