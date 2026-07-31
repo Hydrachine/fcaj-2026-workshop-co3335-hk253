@@ -27,4 +27,6 @@ Thông thường và cũng là tiêu chuẩn, một worklog được thực hi�
 
 **Tuần 6:** [Làm công việc E...](1.6-week6/)
 
-**Tuần 7:** [Làm công việc G...](1.7-week7/)
+**Tuần 7:** [Làm công việc F...](1.7-week7/)
+
+**Week 8:** [Làm công việc G...](1.8-week8/)

@@ -10,38 +10,33 @@ pre: " <b> 1.4. </b> "
 ### Mục tiêu Tuần 4
 
 * Tuần 4 bắt đầu từ ngày **29/06/2026** đến ngày **05/07/2026**.
-* Tìm hiểu chi tiết các dịch vụ mạng của AWS, đặc biệt là dịch vụ **Amazon Virtual Private Cloud (Amazon VPC)**.
-* Tìm hiểu, thực hành cách triển khai (deploy) và quản lý máy chủ ảo bằng **Amazon EC2**.
-* Hoàn thiện bản thiết kế đầu tiên kiến trúc phần mềm và luồng hệ thống (workflow) dự án của nhóm.
+* Phân công và hoàn thiện tài liệu mô tả chi tiết dự án (thư mục `docs` của mã nguồn).
+* Kiểm tra API trên API Gateway và Postman.
+* Làm quen với với Amazon DynamoDB.
 
 ### Các công việc cần triển khai trong tuần này
 
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | ---- | --------- | ------------ | --------------- | -------------- | 
-| 2 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Ôn tập subnets, route tables, các loại gateway <br>&emsp; + Thiết lập tường lửa trong **AWS VPC** | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - **Thực hành**: Thiết lập máy chủ ảo bằng **EC2 Intances** <br>&emsp; + Tạo máy chủ và kiểm tra kết nối <br>&emsp; + Kết nối mạng bằng **NAT Gateway** <br>&emsp; + Quản lý kết nối mạng bằng **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Thiết kế kiến trúc cơ bản của dự án: <br>&emsp; + Vẽ sơ đồ các **Use Case** và **Sequence** <br>&emsp; + Chọn cấu trúc dữ liệu cho dự án <br>&emsp; + Cách sử dụng AWS CLI | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Tạo và quản lý hệ thống mạng AWS VPC giả lập kết nối hai tiệm net | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - **Phân công công việc**: Hoàn thiện toàn bộ tài liệu mô tả chi tiết dư án <br>&emsp; + Xác định rõ tất cả yêu cầu chức năng và phi chức năng <br>&emsp; + Định nghĩa và thiết kế API (nhiệm vụ chính được giao) <br>&emsp; + Kiểm tra và đối chiếu API với các sơ đồ Use Case và Sequence <br>&emsp; + Tạo vài testcase mẫu kiểm thử API <br>&emsp; + Hỗ trợ hoàn thiện file `config.yaml` định nghĩa API và phân quyền chức năng tương ứng | 29/06/2026 | 05/07/2026 | <https://cloudjourney.awsstudygroup.com/> và <https://youtu.be/mXRqgMr_97U> |
+| 5 | - **Thực hành**: Làm quen dịch vụ cơ sở dữ liệu NoSQL **Amazon DynamoDB** <br>&emsp; + Cấu tạo và chức năng của từng bộ phận tạo nên dịch vụ <br>&emsp; + Tạo database bằng 3 cách: **AWS Management Console**, **AWS CloudShell**, và **AWS SDK** | 03/07/2026 | 05/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được Tuần 4
 
-* Nắm vững các thành phần mạng cốt lõi trong **Amazon Virtual Private Cloud (Amazon VPC)**, bao gồm **VPC**, **Subnet**, **Route Table**, **Internet Gateway**, **NAT Gateway**, **Security Group** và **Site to Site AWS VPN**.
+* Đối với dự án nhóm:
 
-* Thiết kế và triển khai thành công một hệ thống mạng ảo mô phỏng kết nối giữa hai tiệm Internet, qua đó tích lũy kinh nghiệm thực tế trong việc cấu hình và quản lý các tài nguyên mạng trên AWS.
+    * Hoàn thiện tài liệu đặc tả chi tiết của dự án, bao gồm các yêu cầu chức năng, yêu cầu phi chức năng và các tài liệu phục vụ quá trình phát triển phần mềm.
 
-* Hiểu và thực hành cách khởi tạo, cấu hình và quản lý các máy chủ ảo **Amazon EC2**, bao gồm kết nối đến máy chủ và kiểm tra khả năng kết nối mạng.
+    * Thiết kế và chuẩn hóa các API của hệ thống, xác định đầy đủ endpoint, phương thức HTTP, tham số đầu vào, dữ liệu trả về và các mã trạng thái phản hồi phù hợp.
 
-* Hiểu được vai trò và cách cấu hình **NAT Gateway**, cho phép các máy chủ trong **Private Subnet** truy cập Internet một cách an toàn mà không chấp nhận các kết nối truy cập từ bên ngoài.
+    * Kiểm tra tính nhất quán giữa tài liệu API với các **Use Case Diagram** và **Sequence Diagram**, giúp bảo đảm các chức năng được thiết kế đầy đủ và đúng với yêu cầu nghiệp vụ.
 
-* Sử dụng **Reachability Analyzer** để phân tích, kiểm tra và xác minh khả năng kết nối mạng giữa các tài nguyên trên AWS.
+    * Xây dựng các test case mẫu và sử dụng **Postman** kết hợp với **Amazon API Gateway** để kiểm thử các API trong quá trình phát triển.
 
-> ⚠️ **AWS VPC** và **Amazon EC2** tự động trừ tín dụng theo giờ, kể cả khi không ai truy cập. Trung bình, **mỗi ngày cần khoảng $4** để duy trì hệ thống mạng
+    * Hỗ trợ hoàn thiện tệp cấu hình `config.yaml`, phục vụ việc định nghĩa API và thiết lập cơ chế xác thực, phân quyền cho các chức năng của hệ thống.
 
-* **Đối với dự án nhóm:**
+* Hiểu được mô hình dữ liệu của **Amazon DynamoDB**, bao gồm các khái niệm **Table**, **Item**, **Attribute**, **Partition Key** và **Sort Key**.
 
-    ** Phối hợp với các thành viên trong nhóm để thiết kế kiến trúc ban đầu của dự án thông qua việc xây dựng các **Use Case Diagram** và **Sequence Diagram**.
+* Thực hành tạo và quản lý bảng dữ liệu trong **Amazon DynamoDB** bằng nhiều phương thức khác nhau như **AWS Management Console**, **AWS CloudShell** và **AWS SDK**, qua đó làm quen với các thao tác quản lý cơ sở dữ liệu NoSQL trên nền tảng AWS.
 
-    ** Xây dựng mô hình dữ liệu và cấu trúc cơ sở dữ liệu ban đầu nhằm đáp ứng các yêu cầu chức năng của dự án.
-
-    ** Củng cố kỹ năng sử dụng **AWS CLI** trong quá trình phát triển, triển khai và quản lý các tài nguyên trên nền tảng AWS.
