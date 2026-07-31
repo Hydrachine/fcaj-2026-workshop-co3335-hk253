@@ -5,55 +5,43 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 2:
+### Mục tiêu Tuần 2
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tuần 2 bắt đầu từ ngày **15/06/2026** đến ngày **21/06/2026**.
+* Tìm hiểu chi tiết các dịch vụ mạng của AWS, đặc biệt là dịch vụ **Amazon Virtual Private Cloud (Amazon VPC)**.
+* Tìm hiểu, thực hành cách triển khai (deploy) và quản lý máy chủ ảo bằng **Amazon EC2**.
+* Hoàn thiện bản thiết kế đầu tiên kiến trúc phần mềm và luồng hệ thống (workflow) dự án của nhóm.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc cần triển khai trong tuần này
 
-
-### Kết quả đạt được tuần 2:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| ---- | --------- | ------------ | --------------- | -------------- | 
+| 2 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Ôn tập subnets, route tables, các loại gateway <br>&emsp; + Thiết lập tường lửa trong **AWS VPC** | 16/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - **Thực hành**: Thiết lập máy chủ ảo bằng **EC2 Intances** <br>&emsp; + Tạo máy chủ và kiểm tra kết nối <br>&emsp; + Kết nối mạng bằng **NAT Gateway** <br>&emsp; + Quản lý kết nối mạng bằng **Reachability Analyzer** | 17/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Thiết kế kiến trúc cơ bản của dự án: <br>&emsp; + Vẽ sơ đồ các **Use Case** và **Sequence** <br>&emsp; + Chọn cấu trúc dữ liệu cho dự án <br>&emsp; + Cách sử dụng AWS CLI | 18/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - **Thực hành**: Làm quen dịch vụ mảng ảo **Amazon Virtual Private Cloud (VPC)** <br>&emsp; + Tạo và quản lý hệ thống mạng AWS VPC giả lập kết nối hai tiệm net | 20/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
+### Kết quả đạt được Tuần 2
+
+* Nắm vững các thành phần mạng cốt lõi trong **Amazon Virtual Private Cloud (Amazon VPC)**, bao gồm **VPC**, **Subnet**, **Route Table**, **Internet Gateway**, **NAT Gateway**, **Security Group** và **Site to Site AWS VPN**.
+
+* Thiết kế và triển khai thành công một hệ thống mạng ảo mô phỏng kết nối giữa hai tiệm Internet, qua đó tích lũy kinh nghiệm thực tế trong việc cấu hình và quản lý các tài nguyên mạng trên AWS.
+
+* Hiểu và thực hành cách khởi tạo, cấu hình và quản lý các máy chủ ảo **Amazon EC2**, bao gồm kết nối đến máy chủ và kiểm tra khả năng kết nối mạng.
+
+* Hiểu được vai trò và cách cấu hình **NAT Gateway**, cho phép các máy chủ trong **Private Subnet** truy cập Internet một cách an toàn mà không chấp nhận các kết nối truy cập từ bên ngoài.
+
+* Sử dụng **Reachability Analyzer** để phân tích, kiểm tra và xác minh khả năng kết nối mạng giữa các tài nguyên trên AWS.
+
+> ⚠️ **AWS VPC** và **Amazon EC2** tự động trừ tín dụng theo giờ, kể cả khi không ai truy cập. Trung bình, **mỗi ngày cần khoảng $4** để duy trì hệ thống mạng
+
+* **Đối với dự án nhóm:**
+
+    ** Phối hợp với các thành viên trong nhóm để thiết kế kiến trúc ban đầu của dự án thông qua việc xây dựng các **Use Case Diagram** và **Sequence Diagram**.
+
+    ** Xây dựng mô hình dữ liệu và cấu trúc cơ sở dữ liệu ban đầu nhằm đáp ứng các yêu cầu chức năng của dự án.
+
+    ** Củng cố kỹ năng sử dụng **AWS CLI** trong quá trình phát triển, triển khai và quản lý các tài nguyên trên nền tảng AWS.

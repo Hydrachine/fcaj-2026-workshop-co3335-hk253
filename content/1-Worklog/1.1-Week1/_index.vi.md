@@ -17,11 +17,11 @@ pre: " <b> 1.1. </b> "
 
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | ---- | --------- | ------------ | --------------- | -------------- | 
-| 1 | -**Họp phổ biến thông tin thực tập** <br>&emsp; + Giới thiệu chương trình FCAJ 2026; + Nội quy công ty; + Văn hoá làm việc <br>&emsp; + Nguồn tra cứu tài liệu <br>&emsp; + Giải đáp thắc mắc | 07/06/2026 | 07/06/2025 | <https://app.notion.com/p/Group-description-BKU-36cdf829a73080bea56cfa322fa2e132> |
+| 1 | - **Họp phổ biến thông tin thực tập** <br>&emsp; + Giới thiệu chương trình FCAJ 2026 <br>&emsp; + Nội quy công ty <br>&emsp; + Văn hoá làm việc <br>&emsp; + Nguồn tra cứu tài liệu <br>&emsp; + Giải đáp thắc mắc | 07/06/2026 | 07/06/2026 | <https://app.notion.com/p/Group-description-BKU-36cdf829a73080bea56cfa322fa2e132> |
 | 4 | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập <br> - Tìm hiểu sơ lược nội dung cần học | 10/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 5 | - Tạo tài khoản AWS hạng Miễn phí (Free) <br> - Tìm thành viên lập nhóm làm việc <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br>&emsp; + Cách sử dụng AWS CLI | 11/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Tìm hiểu cách quản lý tài khoản AWS: <br>&emsp; + Hoàn thành 5 nhiệm vụ làm quen hệ thống <br>&emsp; + Tham khảo kiến trúc nằm trong khoảng **tín dụng (credit) $200** <br> - Tham gia lên ý tưởng dự án cùng nhóm (xác định đề tài) | 12/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 8 | - **Thực hành:** <br>&emsp; + Tạo cảnh báo (alert) mức sử dụng tin dụng bằng **AWS Budget** <br>&emsp; + Làm quen dịch vụ hỗ trợ **AWS Support** <br>&emsp; + Tạo phân quyền từ tài khoản gốc bằng **AWS IAM** | 14/08/2025 | 15/08/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 8 | - **Thực hành:** <br>&emsp; + Tạo cảnh báo (alert) mức sử dụng tin dụng bằng **AWS Budget** <br>&emsp; + Làm quen dịch vụ hỗ trợ **AWS Support** <br>&emsp; + Tạo phân quyền từ tài khoản gốc bằng **AWS IAM** | 14/08/2026 | 15/08/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được Tuần 1

@@ -17,7 +17,7 @@ pre: " <b> 1.1. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ------------------ | 
-| 1 | -**Orientation meeting** <br>&emsp; + Introduction to the FCAJ 2026 program <br>&emsp; + Company regulations and policies <br>&emsp; + Working culture <br>&emsp; + Learning resources and documentation <br>&emsp; + Q&A session | 07/06/2026 | 07/06/2026 | <https://app.notion.com/p/Group-description-BKU-36cdf829a73080bea56cfa322fa2e132> |
+| 1 | - **Orientation meeting** <br>&emsp; + Introduction to the FCAJ 2026 program <br>&emsp; + Company regulations and policies <br>&emsp; + Working culture <br>&emsp; + Learning resources and documentation <br>&emsp; + Q&A session | 07/06/2026 | 07/06/2026 | <https://app.notion.com/p/Group-description-BKU-36cdf829a73080bea56cfa322fa2e132> |
 | 4 | - Get acquainted with FCAJ members <br> - Review the internship regulations and working guidelines <br> - Explore the overall learning roadmap and required topics | 10/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 5 | - Create an **AWS Free Tier** account <br> - Form a project team with other participants <br> - **Hands-on practice:** <br>&emsp; + Create an AWS account <br>&emsp; + Install and configure AWS CLI <br>&emsp; + Learn the basic usage of AWS CLI | 11/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Learn AWS account management best practices: <br>&emsp; + Complete the five introductory onboarding tasks <br>&emsp; + Review the reference architecture that fits within the **USD 200 AWS credit** <br> - Participate in team discussions to brainstorm and determine the project topic | 12/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
