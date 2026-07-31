@@ -6,119 +6,81 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “Saturday Meet Up”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Giới thiệu phương pháp kiểm thử dự án có thể đóng gói (containerized) bằng Docker.
+- Chia sẻ quá trình vận dụng và kết hợp AWS WAF với Học Máy để thiết kế ứng dụng nhận diện tấn công mạng.
+- Chia sẻ phương pháp vận dụng AWS WebSocket để thiết kế trò chơi ghép cặp theo thời gian thực.
+- Chia sẻ kinh nghiệm làm việc nhóm hiệu quả.
+- Chỉa sẻ phương pháp thiết kế hệ thống truy suất tăng cường (GraphRAG) sử dụng AWS Bedrock và AWS Neptune.
+- Chia sẻ kinh nghiệm chuyển hướng từ IT Helpdesk sang Cloud/DevOps..........
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Bao Huynh** - Junior Cloud Native Developer - Endava Vietnam; Founder / Head Lab - ITea Lab
+- **Lê Hoàng Gia Đại**
+- **Nguyen Quoc Bao**
+- **Truong Huy Phuoc**
+- **Viet Phat** - AI majoring at Swinburne University of Technology
+- **Tran Trung Vinh** - System Administrator at Central Retail Group
 
-### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+### Nội dung nổi bật
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+Sự kiện **Saturday Meet Up** bao gồm chuỗi bài chia sẻ chuyên môn đến từ các chuyên gia và sinh viên có kinh nghiệm thực tiễn trong lĩnh vực Điện toán đám mây, Trí tuệ nhân tạo và Phát triển phần mềm. Chương trình mang đến nhiều chủ đề công nghệ hiện đại cùng những kinh nghiệm triển khai dự án trong thực tế.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Một số nội dung nổi bật bao gồm:
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Xây dựng **Hệ thống phát hiện xâm nhập mạng (Network Intrusion Detection System - NIDS)** dựa trên **Học máy (Machine Learning)** kết hợp với **AWS WAF**, sử dụng bộ dữ liệu **CSE-CIC-IDS2018** và triển khai trên nền tảng AWS với bảng điều khiển giám sát theo thời gian thực.
+- Thiết kế kiến trúc trò chơi nhiều người chơi theo thời gian thực bằng **AWS WebSocket**, **AWS Lambda** và **Amazon DynamoDB**, đồng thời phân tích các vấn đề về khả năng mở rộng, quản lý kết nối và những thách thức trong quá trình vận hành.
+- Giới thiệu **Bốn nguyên tắc vàng của làm việc nhóm hiệu quả**, bao gồm xây dựng mục tiêu chung rõ ràng, phân công công việc phù hợp, duy trì giao tiếp cởi mở và nâng cao tinh thần trách nhiệm của mỗi thành viên.
+- Trình bày kiến trúc **GraphRAG**, sử dụng **Amazon Bedrock Knowledge Bases** để trích xuất tri thức và tạo vector nhúng (Embeddings), kết hợp với **Amazon Neptune Analytics** để lưu trữ đồ thị và phân tích mối quan hệ giữa các thực thể.
+- Chia sẻ kinh nghiệm thực tế về lộ trình phát triển nghề nghiệp từ **IT Helpdesk** đến **System Administrator**, đồng thời từng bước chuyển sang lĩnh vực **Cloud Computing** và **DevOps** thông qua quá trình học tập liên tục và thực hiện các dự án thực tế.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+### Kiến thức tiếp thu
 
-#### Domain-Driven Design (DDD)
+Sau khi tham gia sự kiện, em đã tiếp thu được nhiều kiến thức thực tiễn về các công nghệ điện toán đám mây hiện đại cũng như quy trình phát triển phần mềm, bao gồm:
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- Hiểu được cách kết hợp Học máy với các dịch vụ bảo mật của AWS nhằm nâng cao khả năng phát hiện các cuộc tấn công mạng.
+- Nắm được kiến trúc và những điểm cần lưu ý khi xây dựng các ứng dụng thời gian thực theo mô hình serverless sử dụng AWS WebSocket, AWS Lambda và Amazon DynamoDB.
+- Hiểu rõ hơn về kiến trúc GraphRAG cũng như vai trò của Amazon Bedrock và Amazon Neptune trong việc xây dựng các hệ thống AI khai thác tri thức.
+- Học được các nguyên tắc làm việc nhóm hiệu quả có thể áp dụng trong các dự án phát triển phần mềm.
+- Có thêm góc nhìn về lộ trình phát triển nghề nghiệp trong lĩnh vực Cloud Computing và DevOps, đồng thời nhận thức được tầm quan trọng của việc học tập liên tục và tích lũy kinh nghiệm thực tế.
 
-#### Event-Driven Architecture
+### Áp dụng vào công việc
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+Những kiến thức thu được từ sự kiện có thể được áp dụng trực tiếp vào quá trình thực tập cũng như các dự án phát triển phần mềm trong tương lai.
 
-#### Compute Evolution
+Cụ thể, em có thể:
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+- Vận dụng tư duy thiết kế kiến trúc serverless khi phát triển các ứng dụng trên nền tảng AWS.
+- Nghiên cứu và áp dụng kiến trúc GraphRAG cho các ứng dụng AI trong tương lai có yêu cầu truy xuất và suy luận trên cơ sở tri thức.
+- Áp dụng các nguyên tắc làm việc nhóm hiệu quả nhằm nâng cao khả năng phối hợp, giao tiếp và quản lý công việc trong quá trình phát triển dự án.
+- Tiếp tục trau dồi kiến thức về Cloud Computing, DevOps và Trí tuệ nhân tạo thông qua việc thực hiện các dự án thực tế và quá trình tự học.
 
-#### Amazon Q Developer
+### Cảm nhận sau khi tham gia sự kiện
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Tham gia sự kiện **Saturday Meet Up** là một trải nghiệm học tập ý nghĩa, giúp em có thêm nhiều góc nhìn thực tiễn về các công nghệ AWS hiện đại cũng như quy trình phát triển phần mềm trong thực tế. Thay vì chỉ tập trung vào lý thuyết, các diễn giả đã chia sẻ toàn bộ kiến trúc hệ thống, quy trình triển khai, những khó khăn gặp phải và các bài học kinh nghiệm được rút ra từ những dự án thực tế.
 
-### Những Gì Học Được
+Bên cạnh đó, sự kiện còn giúp em tiếp cận với nhiều công nghệ mà trước đây em chưa có cơ hội tìm hiểu, đặc biệt là các ứng dụng của Trí tuệ nhân tạo, kiến trúc Cloud Native và các mô hình thiết kế hệ thống hiện đại. Những nội dung được chia sẻ đã giúp em mở rộng góc nhìn về cách kết hợp các dịch vụ AWS để giải quyết các bài toán thực tế một cách hiệu quả.
 
-#### Tư Duy Thiết Kế
+#### Học máy và bảo mật trên AWS
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- Hiểu được cách kết hợp Học máy với AWS WAF để xây dựng các hệ thống phát hiện tấn công mạng dựa trên hành vi, thay vì chỉ phụ thuộc vào các phương pháp phát hiện dựa trên chữ ký truyền thống.
+- Hiểu rõ hơn về toàn bộ quy trình xây dựng một hệ thống phát hiện xâm nhập, từ chuẩn bị dữ liệu, huấn luyện mô hình, triển khai trên AWS đến giám sát theo thời gian thực.
 
-#### Kiến Trúc Kỹ Thuật
+#### Kiến trúc điện toán đám mây hiện đại
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- Tiếp cận các kiến trúc serverless được xây dựng bằng AWS Lambda, API Gateway, WebSocket, Amazon DynamoDB, Amazon Bedrock và Amazon Neptune.
+- Hiểu được ưu điểm, hạn chế cũng như những yếu tố cần cân nhắc khi lựa chọn và kết hợp các dịch vụ AWS để phát triển các ứng dụng thông minh có khả năng mở rộng.
 
-#### Chiến Lược Hiện Đại Hóa
+#### Làm việc nhóm và định hướng nghề nghiệp
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp em có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, em hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp em hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, em nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- Học được các nguyên tắc làm việc nhóm hiệu quả nhằm nâng cao khả năng phối hợp, giao tiếp và năng suất làm việc trong các dự án phát triển phần mềm.
+- Tiếp thu nhiều kinh nghiệm thực tế từ các diễn giả đang làm việc trong ngành, qua đó có thêm động lực tiếp tục học tập về AWS, Cloud Computing và DevOps thông qua việc xây dựng các dự án thực tế và rèn luyện kỹ năng chuyên môn.
 
 #### Một số hình ảnh khi tham gia sự kiện
 

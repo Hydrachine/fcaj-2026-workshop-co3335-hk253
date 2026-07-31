@@ -6,11 +6,8 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!”
 
 ### Event Objectives
 
@@ -21,9 +18,7 @@ pre: " <b> 4.2. </b> "
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **HUỲNH AN KHƯƠNG, NGUYỄN QUỐC HUY, NGÔ QUANG KHÔI, HOÀNG LÊ THÀNH ĐỨC, ĐẶNG NGUYỄN PHƯỚC LỘC, ĐẶNG TRƯỜNG HƯNG**
 
 ### Key Highlights
 
